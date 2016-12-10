@@ -12,7 +12,7 @@ do
    	echo "$file"
 	cat raw/header.txt "$file" > processed/$file
 	python gc_gene_plot.py processed/$file
-
+hello
 done
 echo "Done!!"
 
